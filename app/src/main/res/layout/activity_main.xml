@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:layout_margin="0dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="WELCOME"
+        android:textColor="#fe181312"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:onClick="about"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:width="100dp"
+        android:background="@drawable/c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_marginLeft="20dp"
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/about"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_marginRight="20dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/courses"
+        android:layout_above="@+id/textView2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:onClick="courses"
+        android:layout_marginRight="20dp"
+        android:layout_width="100dp"
+        android:background="@drawable/c"
+        android:layout_height="wrap_content"
+        android:text="courses"
+        android:id="@+id/button"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_marginTop="3dp"
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView3"
+        android:src="@drawable/notices"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <Button
+        android:onClick="notices"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Notices"
+        android:background="@drawable/c"
+        android:id="@+id/button2"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignLeft="@+id/imageView3"
+        android:layout_alignStart="@+id/imageView3" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView4"
+        android:src="@drawable/events"
+        android:layout_above="@+id/button2"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button" />
+
+    <Button
+        android:onClick="events"
+        android:layout_width="100dp"
+        android:background="@drawable/c"
+        android:layout_height="wrap_content"
+        android:text="events"
+        android:id="@+id/button3"
+        android:layout_alignTop="@+id/button2"
+        android:layout_alignLeft="@+id/imageView4"
+        android:layout_alignStart="@+id/imageView4" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView5"
+        android:src="@drawable/students"
+        android:layout_below="@+id/button2"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2" />
+
+    <Button
+        android:onClick="students"
+        android:background="@drawable/c"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Students"
+        android:id="@+id/button4"
+        android:layout_below="@+id/imageView5"
+        android:layout_alignLeft="@+id/imageView5"
+        android:layout_alignStart="@+id/imageView5" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView6"
+        android:src="@drawable/website"
+        android:layout_alignTop="@+id/imageView5"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3" />
+
+    <Button
+        android:onClick="website"
+        android:background="@drawable/c"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Website"
+        android:id="@+id/button5"
+        android:layout_below="@+id/imageView6"
+        android:layout_alignLeft="@+id/imageView6"
+        android:layout_alignStart="@+id/imageView6" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView7"
+        android:src="@drawable/contactus"
+        android:layout_above="@+id/imageView6"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView8"
+        android:src="@drawable/gallery"
+        android:layout_above="@+id/imageView4"
+        android:layout_alignLeft="@+id/imageView7"
+        android:layout_alignStart="@+id/imageView7" />
+
+    <Button
+        android:background="@drawable/c"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Gallery"
+        android:onClick="gallery"
+        android:id="@+id/button6"
+        android:layout_below="@+id/imageView8"
+        android:layout_alignLeft="@+id/imageView8"
+        android:layout_alignStart="@+id/imageView8" />
+
+    <Button
+        android:background="@drawable/c"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Contact us"
+        android:id="@+id/button7"
+        android:onClick="contactus"
+        android:layout_alignTop="@+id/imageView6"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+
